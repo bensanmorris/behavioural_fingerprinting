@@ -17,5 +17,5 @@ It is not known yet if the hierarchical nature of an application's files and the
 - Implement a simple file system filter driver
 - Generate a sparse matrix of activity as explained above for a single fixed application (MS Word for instance)
 - Repeat the sparse matrix construction on several machines / users
-- Quantify the ratio of commonality accross these fingerprints (it is assumed they will be coherent in some way i.e. not just random noise if the fingerprint is recorded across a sufficient timespan the duration of which might be application specific - it may be that an application's fingerprint has a temporal component to it i.e. is a time series of fingerprints where fingerprint at t+1 = fingerprint at t + some delta fingerprint) 
+- We may just at this stage consider the fingerpint mean and standard deviations to see how volatile fingerprints accross machines, users and time intervals are.
 
