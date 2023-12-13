@@ -1,4 +1,4 @@
-# behavioural_fingerprinting
+# Behavioural Fingerprinting
 The idea is to apply machine learning to the detection of compromised applications by comparing the behavioural fingerprint of an application with an established behavioural fingerprint obtained for the application in a clean room environment.
 Machine learning is applied in order to estimate a probability as to how genuine the application is behaving by comparing a vectorised representation of an application's behaviour (a behavioural fingerprint) with the established fingerprint for the application.
 
