@@ -9,6 +9,8 @@ Machine learning is applied in order to estimate a probability as to how genuine
 - Train a classifier on this fingerprint data
 - Perform prediction of the application's behaviour on machines / users (methodology for training / testing to be determined - most likely cross-validation approach / Brieman's variable importance algorithm)
 
+NB. Future iterations might look at other sources of application behaviour using a similar approach (network access for instance).
+
 # Vectorising the file system
 It is not known yet if the hierarchical nature of an application's files and the areas of the file system it touches form strong features for detection so ideally the key code that uniquely identifies an application's file touching the file system might be some form of hierarchical hash (i.e. the key code being obtained via a z-order curve representation of the file's path or some other method that maintains / encodes the hierarchy implcicit in a file's path).
 
