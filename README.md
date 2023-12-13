@@ -12,3 +12,10 @@ Machine learning is applied in order to estimate a probability that the applicat
 # Vectorising the file system
 It is not known yet if the hierarchical nature of an application's files and the areas of the file system it touches form strong features for detection so ideally the key code that uniquely identifies an application's file touching the file system might be some form of hierarchical hash (i.e. the key code being obtained via a z-order curve representation of the file's path or some other method that maintains / encodes the hierarchy implcicit in a file's path).
 
+# Prototype 1
+- Choose an algorithm that converts a file's path into a unique key code (and the probability of collision i.e. 2 or more file paths result in the same key code)
+- Implement a simple file system filter driver
+- Generate a sparse matrix of activity as explained above for a single fixed application (MS Word for instance)
+- Repeat the sparse matrix construction on several machines / users
+- Quantify the ration of commonality accross these fingerprints (it is assumed they will be coherent in some way i.e. not just random noise if the fingerprint is recorded across a sufficient timespan the duration of which might be application specific) 
+
