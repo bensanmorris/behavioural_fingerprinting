@@ -14,7 +14,7 @@ Machine learning is applied in order to estimate a probability as to how genuine
 NB. Future iterations might look at other sources of application behaviour using a similar approach (network access for instance).
 
 # Vectorising the file system
-It is not known yet if the hierarchical nature of an application's files and the areas of the file system it touches form strong features for classification / detection so ideally the key code that uniquely identifies an application's file touching the file system might be some form of hierarchical hash (i.e. the key code being obtained via a z-order curve representation of the file's path or some other method that maintains / encodes the hierarchy implcicit in a file's path).
+It is not known yet if the hierarchical nature of an application's files and the areas of the file system it touches form strong features for classification / detection so ideally the key code that uniquely identifies an application's file touching the file system might be some form of hierarchical hash.
 
 # Prototype 1
 - Choose an algorithm that converts a file's path into a unique key code (this key code will be used to index into the behavioural fingerprint vectorised represntation)
