@@ -23,3 +23,12 @@ It is not known yet if the hierarchical nature of an application's files and the
 - Repeat the sparse matrix construction on several machines / users
 - We may just at this stage consider the fingerpint mean and standard deviations to see how volatile fingerprints accross machines, users and time intervals are.
 
+# Refs:
+
+(Filter drivers)
+
+- https://learn.microsoft.com/en-us/windows-hardware/drivers/ifs/
+- https://learn.microsoft.com/en-us/windows-hardware/drivers/samples/file-system-driver-samples     https://github.com/microsoft/windows-driver-samples/tree/main/filesys/miniFilter/minispy
+- https://learn.microsoft.com/en-us/windows-hardware/drivers/ifs/filter-manager-concepts
+- https://stackoverflow.com/questions/16702971/how-to-trap-file-access-attempts-with-a-filter-driver-kernel-and-offer-dialog
+- https://www.codeproject.com/Articles/43586/File-System-Filter-Driver-Tutorial
