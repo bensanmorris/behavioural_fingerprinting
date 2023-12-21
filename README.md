@@ -32,3 +32,7 @@ It is not known yet if the hierarchical nature of an application's files and the
 - https://learn.microsoft.com/en-us/windows-hardware/drivers/ifs/filter-manager-concepts
 - https://stackoverflow.com/questions/16702971/how-to-trap-file-access-attempts-with-a-filter-driver-kernel-and-offer-dialog
 - https://www.codeproject.com/Articles/43586/File-System-Filter-Driver-Tutorial
+
+(DLL injection attacks)
+
+- [An example of DLL injection (may come in handy when testing how an application's fingerprint changes in response to a rogue dll loaded into the app's process)](https://www.codeproject.com/Tips/5369555/Inject-DLL-in-Another-Process-using-Cplusplus-Win3)
