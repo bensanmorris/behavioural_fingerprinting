@@ -31,7 +31,7 @@ It is not known yet if the hierarchical nature of an application's files and the
 
 (Application defense mechanisms)
 
-- (WDAC - Windows Defender Application Control)[https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac]
+- [WDAC - Windows Defender Application Control](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac)
 
 (Filter drivers)
 
