@@ -25,6 +25,10 @@ It is not known yet if the hierarchical nature of an application's files and the
 
 # Refs:
 
+(Application identity)
+
+- [Checksums and checksum-based identity vulnerabilities](https://carleton.ca/scs/wp-content/uploads/TR-04-09.pdf)
+
 (Filter drivers)
 
 - https://learn.microsoft.com/en-us/windows-hardware/drivers/ifs/
