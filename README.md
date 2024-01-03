@@ -23,10 +23,6 @@ It is not known yet if the hierarchical nature of an application's files and the
 - Repeat the sparse matrix construction on several machines / users
 - We may just at this stage consider the fingerpint mean and standard deviations to see how volatile fingerprints accross machines, users and time intervals are.
 
-# Other applications
-
-- If the behaviour of an application is modelled as a time series then this information could be used to accelerate an application's performance on a system (by pre-emptively acquiring resources needed by the application based on past observations (encoded in the behavioural fingerprint)) 
-
 # Refs:
 
 (Application identity)
