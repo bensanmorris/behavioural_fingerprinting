@@ -17,11 +17,22 @@ NB. Future iterations might look at other sources of application behaviour using
 It is not known yet if the hierarchical nature of an application's files and the areas of the file system it touches form strong features for classification / detection so ideally the key code that uniquely identifies an application's file touching the file system might be some form of hierarchical hash.
 
 # Prototype 1
-- Choose an algorithm that converts a file's path into a unique key code (this key code will be used to index into the behavioural fingerprint vectorised represntation)
-- Implement a simple file system filter driver
-- Generate a sparse matrix of activity as explained above for a single fixed application (MS Word for instance)
-- Repeat the sparse matrix construction on several machines / users
-- We may just at this stage consider the fingerpint mean and standard deviations to see how volatile fingerprints accross machines, users and time intervals are.
+
+For the initial prototype we use supervised learning as follows:
+
+1. We implement a file system driver that intercepts file activity and inserts it into a database as follows
+   1. Originating application
+   2. The file being touched
+   3. The file activity type (i.e. read, write, add or delete)
+   4. Timestamp
+2. We launch an application (i.e. MS Word) on machine A with this file system driver / database installed
+3. A user then uses the MS Word for a period of time whilst we collect this data
+4. When the collection period is over we filter the database so we keep only the activity for the application of interest (MS Word)
+5. We export this data (in csv format) and label it as being MS Word
+6. We repeat collection, filtering, export and labelling of MS Word accross N users / machines
+7. We then split the collected data into training / test sets
+8. We train a classifier on the labelled MS Word data training data
+9. We then test the test set data against the classifier and see what the confidence level looks like
 
 # Refs:
 
