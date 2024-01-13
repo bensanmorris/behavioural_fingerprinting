@@ -18,7 +18,7 @@ For the initial prototype we use supervised learning as follows:
 5. We export this data (in csv format) and label it as being MS Word
 6. We repeat collection, filtering, export and labelling of MS Word activity across N users / machines
 7. We then split the collected data into training / test sets
-8. We train a classifier on the labelled MS Word data training data (any non-numeric data i.e. Application / File paths could be translated to hashes with a reverse lookup table maintained so we can recover the original value from the hash.
+8. We train a classifier on the labelled MS Word data training data (any non-numeric data i.e. Application / File paths could be translated to hashes with a reverse lookup table maintained so we can recover the original value from the hash).
 9. We then test the test set data against the classifier and see what the confidence level looks like
 
 # Refs:
