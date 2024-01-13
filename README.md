@@ -3,17 +3,6 @@ The idea is to apply machine learning to the classification and detection of com
 
 [My original presentation video](https://youtu.be/ZaBt7gynkx4) - I had to keep it under 3 minutes so apologies for the speed of delivery.
 
-# Approach
-- Vectorise file activity performed by an application (and its constituent files). A file system driver will assist by intercepting file system access, obtaining the originating application / application file performing the file access, convert this file path into a key code that will be used as an index into a sparse matrix (i.e. a "cell" in the matrix that represents this unique file / file's hash), colour the cell according to the type of access being performed by the file i.e. RED = READ, GREEN = WRITE, BLUE = ADD, ALPHA = DELETE. Each color channel in the cell's value will be a monotonically increasing value.
-- Encode this vectorisation into sparse matrix form ([this may help](https://github.com/google/neural-tangents))
-- Collect, for a given application, multiple vectorised fingerprints accross many machines and users
-- Train a classifier on this fingerprint data for each application
-
-NB. Future iterations might look at other sources of application behaviour using a similar approach (network access for instance).
-
-# Vectorising the file system
-It is not known yet if the hierarchical nature of an application's files and the areas of the file system it touches form strong features for classification / detection so ideally the key code that uniquely identifies an application's file touching the file system might be some form of hierarchical hash.
-
 # Prototype 1
 
 For the initial prototype we use supervised learning as follows:
@@ -29,7 +18,7 @@ For the initial prototype we use supervised learning as follows:
 5. We export this data (in csv format) and label it as being MS Word
 6. We repeat collection, filtering, export and labelling of MS Word activity across N users / machines
 7. We then split the collected data into training / test sets
-8. We train a classifier on the labelled MS Word data training data
+8. We train a classifier on the labelled MS Word data training data (any non-numeric data i.e. Application / File paths could be translated to hashes with a reverse lookup table maintained so we can recover the original value from the hash.
 9. We then test the test set data against the classifier and see what the confidence level looks like
 
 # Refs:
