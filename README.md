@@ -1,6 +1,5 @@
 # Behavioural Fingerprinting - Pre-emptive malware monitoring
 The idea is to apply machine learning to the classification and detection of compromised applications by comparing the behavioural fingerprint of an application with an established behavioural fingerprint obtained for the application in a clean room environment.
-Machine learning is applied in order to estimate a probability as to how genuine the application is behaving by comparing a vectorised representation of an application's behaviour (a behavioural fingerprint) with the established fingerprint for the application.
 
 [My original presentation video](https://youtu.be/ZaBt7gynkx4) - I had to keep it under 3 minutes so apologies for the speed of delivery.
 
