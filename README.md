@@ -11,7 +11,7 @@ For the initial prototype we use supervised learning as follows:
    1. Originating application
    2. The file being touched
    3. The file activity type (i.e. read, write, add or delete)
-   4. Timestamp
+   4. Timestamp (the timestamp won't form part of the initial training data)
 2. We launch an application (i.e. MS Word) on machine A with this file system driver / database installed
 3. A user then uses the MS Word for a period of time whilst we collect this data
 4. When the collection period is over we filter the database so we keep only the activity for the application of interest (MS Word)
