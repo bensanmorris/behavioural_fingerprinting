@@ -33,6 +33,7 @@ For the initial prototype we use supervised learning as follows:
 
 (Filter drivers)
 
+- https://github.com/apriorit/file-system-filter
 - https://learn.microsoft.com/en-us/windows-hardware/drivers/ifs/
 - https://learn.microsoft.com/en-us/windows-hardware/drivers/samples/file-system-driver-samples     https://github.com/microsoft/windows-driver-samples/tree/main/filesys/miniFilter/minispy
 - https://learn.microsoft.com/en-us/windows-hardware/drivers/ifs/filter-manager-concepts
