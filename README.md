@@ -27,7 +27,7 @@ For the initial prototype we use supervised learning as follows:
 3. A user then uses the MS Word for a period of time whilst we collect this data
 4. When the collection period is over we filter the database so we keep only the activity for the application of interest (MS Word)
 5. We export this data (in csv format) and label it as being MS Word
-6. We repeat collection, filtering, export and labelling of MS Word accross N users / machines
+6. We repeat collection, filtering, export and labelling of MS Word activity across N users / machines
 7. We then split the collected data into training / test sets
 8. We train a classifier on the labelled MS Word data training data
 9. We then test the test set data against the classifier and see what the confidence level looks like
