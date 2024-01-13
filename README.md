@@ -40,6 +40,8 @@ For the initial prototype we use supervised learning as follows:
 - https://stackoverflow.com/questions/16702971/how-to-trap-file-access-attempts-with-a-filter-driver-kernel-and-offer-dialog
 - https://www.codeproject.com/Articles/43586/File-System-Filter-Driver-Tutorial
 
-(DLL injection attacks)
+(DLL injection attacks and hooking)
 
 - [An example of DLL injection (may come in handy when testing how an application's fingerprint changes in response to a rogue dll loaded into the app's process)](https://www.codeproject.com/Tips/5369555/Inject-DLL-in-Another-Process-using-Cplusplus-Win3)
+- https://www.apriorit.com/dev-blog/reverse-engineer-api-calls-and-write-hooks
+- https://www.apriorit.com/dev-blog/160-apihooks
