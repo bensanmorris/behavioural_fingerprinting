@@ -21,6 +21,10 @@ For the initial prototype we use supervised learning as follows:
 8. We train a classifier on the labelled MS Word data training data (any non-numeric data i.e. Application / File paths could be translated to hashes with a reverse lookup table maintained so we can recover the original value from the hash).
 9. We then test the test set data against the classifier and see what the confidence level looks like
 
+# Other candidate fingerprints
+
+Top N call stacks, registry activity, network activity, memory and cpu utilisation.
+
 # Refs:
 
 (Application identity)
