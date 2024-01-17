@@ -35,7 +35,8 @@ For the initial prototype we use supervised learning as follows:
 
 - https://github.com/apriorit/file-system-filter
 - https://learn.microsoft.com/en-us/windows-hardware/drivers/ifs/
-- https://learn.microsoft.com/en-us/windows-hardware/drivers/samples/file-system-driver-samples     https://github.com/microsoft/windows-driver-samples/tree/main/filesys/miniFilter/minispy
+- https://learn.microsoft.com/en-us/windows-hardware/drivers/samples/file-system-driver-samples
+- https://github.com/microsoft/windows-driver-samples/tree/main/filesys/miniFilter/minispy
 - https://learn.microsoft.com/en-us/windows-hardware/drivers/ifs/filter-manager-concepts
 - https://stackoverflow.com/questions/16702971/how-to-trap-file-access-attempts-with-a-filter-driver-kernel-and-offer-dialog
 - https://www.codeproject.com/Articles/43586/File-System-Filter-Driver-Tutorial
